@@ -1,0 +1,22 @@
+C:\Users\gastonmira\Documents\phonegap\hello\platforms\android\bin\classes.dex : \
+C:\Users\gastonmira\Documents\phonegap\hello\platforms\android\bin\classes\com\example\hello\BuildConfig.class \
+C:\Users\gastonmira\Documents\phonegap\hello\platforms\android\bin\classes\com\example\hello\HelloWorld.class \
+C:\Users\gastonmira\Documents\phonegap\hello\platforms\android\bin\classes\com\example\hello\R$attr.class \
+C:\Users\gastonmira\Documents\phonegap\hello\platforms\android\bin\classes\com\example\hello\R$drawable.class \
+C:\Users\gastonmira\Documents\phonegap\hello\platforms\android\bin\classes\com\example\hello\R$string.class \
+C:\Users\gastonmira\Documents\phonegap\hello\platforms\android\bin\classes\com\example\hello\R$xml.class \
+C:\Users\gastonmira\Documents\phonegap\hello\platforms\android\bin\classes\com\example\hello\R.class \
+C:\Users\gastonmira\Documents\phonegap\hello\platforms\android\bin\classes\org\apache\cordova\contacts\ContactAccessor$WhereOptions.class \
+C:\Users\gastonmira\Documents\phonegap\hello\platforms\android\bin\classes\org\apache\cordova\contacts\ContactAccessor.class \
+C:\Users\gastonmira\Documents\phonegap\hello\platforms\android\bin\classes\org\apache\cordova\contacts\ContactAccessorSdk5.class \
+C:\Users\gastonmira\Documents\phonegap\hello\platforms\android\bin\classes\org\apache\cordova\contacts\ContactManager$1.class \
+C:\Users\gastonmira\Documents\phonegap\hello\platforms\android\bin\classes\org\apache\cordova\contacts\ContactManager$2.class \
+C:\Users\gastonmira\Documents\phonegap\hello\platforms\android\bin\classes\org\apache\cordova\contacts\ContactManager$3.class \
+C:\Users\gastonmira\Documents\phonegap\hello\platforms\android\bin\classes\org\apache\cordova\contacts\ContactManager.class \
+C:\Users\gastonmira\Documents\phonegap\hello\platforms\android\bin\classes\org\apache\cordova\device\Device.class \
+C:\Users\gastonmira\Documents\phonegap\hello\platforms\android\bin\classes\org\apache\cordova\geolocation\CordovaLocationListener$LocationTimeoutTask.class \
+C:\Users\gastonmira\Documents\phonegap\hello\platforms\android\bin\classes\org\apache\cordova\geolocation\CordovaLocationListener.class \
+C:\Users\gastonmira\Documents\phonegap\hello\platforms\android\bin\classes\org\apache\cordova\geolocation\GeoBroker.class \
+C:\Users\gastonmira\Documents\phonegap\hello\platforms\android\bin\classes\org\apache\cordova\geolocation\GPSListener.class \
+C:\Users\gastonmira\Documents\phonegap\hello\platforms\android\bin\classes\org\apache\cordova\geolocation\NetworkListener.class \
+C:\Users\gastonmira\Documents\phonegap\hello\platforms\android\bin\dexedLibs\classes-24809e16769365527c379d53240764be.jar \
