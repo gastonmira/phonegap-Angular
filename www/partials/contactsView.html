@@ -8,7 +8,7 @@
         <p class="centerize">Number of contacts found: {{contacts.length}}</p>
         <div class="topcoat-list__container list">
             <ul class=topcoat-list>
-                <li ng-repeat="contact in contacts" class="topcoat-list__item">
+                <li ng-repeat="contact in contacts | orderBy:'contact.name.formatted'" class="topcoat-list__item">
                     <p>{{ contact.name.formatted }}
                     <a href="tel://{{contact.phoneNumbers[0].value}}" style="float:right">{{ contact.phoneNumbers[0].value }}</a></p>
                 </li>

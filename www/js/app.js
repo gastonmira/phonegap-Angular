@@ -46,20 +46,15 @@ myApp.controller('DeviceCtrl', ['$scope',
 
 myApp.controller('ContactsCtrl', ['$scope',
 	function($scope) {
-		$scope.find = function() {
-			$scope.contacts = [];
-			var options = new ContactFindOptions();
-			//options.filter=""; //returns all results
-			options.filter = $scope.searchTxt;
-			options.multiple = true;
-			var fields = ["displayName", "name", "phoneNumbers"];
-			navigator.contacts.find(fields, function(contacts) {
-				$scope.contacts = contacts;
-				console.log("contacts", $scope.contacts);
-				$scope.$apply();
-			}, function(e) {
-				console.log("Error finding contacts " + e.code)
-			}, options);
-		}
+		var fields = ["displayName", "name", "phoneNumbers"];
+		var options = new ContactFindOptions();
+		options.multiple = true;
+		navigator.contacts.find(fields, function(contacts) {
+			$scope.contacts = contacts;
+			$scope.$apply();
+		}, function(e) {
+			console.log("Error finding contacts " + e.code)
+		}, options);
+
 	}
 ]);
