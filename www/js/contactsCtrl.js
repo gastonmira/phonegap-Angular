@@ -1,6 +1,4 @@
-var contactsModule = angular.module('contactsModule', []);
-
-contactsModule.controller('ContactsCtrl', ['$scope',
+anuglar.module('contactsModule').controller('ContactsCtrl', ['$scope',
 	function($scope) {
 		var fields = ["displayName", "name", "phoneNumbers"];
 		var options = new ContactFindOptions();

@@ -1,6 +1,4 @@
-var moduleGeo = angular.module('geolocationModule', []);
-
-moduleGeo.controller('GeolocationCtrl', ['$scope',
+angular.module('geolocationModule').controller('GeolocationCtrl', ['$scope',
 	function($scope) {
 		navigator.geolocation.getCurrentPosition(function(position) {
 			$scope.position = position;
