@@ -3,7 +3,7 @@
  *
  * routes of the app
  */
-angular.module('myApp').config(function($routeProvider) {
+angular.module('routesApp').config(function($routeProvider) {
 	$routeProvider.when('/', {
 		templateUrl: 'partials/homeView.html',
 		controller: 'myAppCtrl'
